@@ -1,0 +1,5 @@
+ ### Get Request
+ GET http://localhost:8000/api/v1/users
+
+### Post 
+POST http://localhost:8000/api/v1/users
