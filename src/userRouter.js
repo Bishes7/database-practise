@@ -8,10 +8,16 @@ router.get("/", (req, res) => {
   res.json("Get Method working");
 });
 
-export default router;
-
 router.post("/", (req, res) => {
   res.json({
     message: "Post Method implemented",
   });
 });
+
+router.put("/", (req, res) => {
+  res.json({
+    message: "Put Method implemented",
+  });
+});
+
+export default router;
