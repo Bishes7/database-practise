@@ -7,3 +7,6 @@ POST http://localhost:8000/api/v1/users
 
 ### PUT
 PUT http://localhost:8000/api/v1/users
+
+###Delete 
+DELETE http://localhost:8000/api/v1/users

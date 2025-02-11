@@ -20,4 +20,10 @@ router.put("/", (req, res) => {
   });
 });
 
+router.delete("/", (req, res) => {
+  res.json({
+    message: "Delete Method implemented",
+  });
+});
+
 export default router;
